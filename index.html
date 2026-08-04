@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>🎮 Echo Locator - Audio Stealth Game</title>
+  <meta name="description" content="Echo Locator - A unique audio-based stealth puzzle game. Use sonar pings to navigate, but beware of the predator!">
+  <meta name="author" content="Arsal">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Echo Locator - Audio Stealth Game">
+  <meta property="og:description" content="Navigate with sound, evade the predator, find the exit.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #0a0a1a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    #gameCanvas {
+      border: 3px solid #333;
+      border-radius: 8px;
+      box-shadow: 0 0 40px rgba(0, 150, 255, 0.2);
+      background: #1a1a2e;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <!-- Canvas will be added by JavaScript -->
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
